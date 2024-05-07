@@ -1,6 +1,6 @@
 let heroi = ["Anderson Souza", 6000]
 
-if (heroi[1] > 10001){
+if (heroi[1] < 10001){
     if (heroi[1] < 1000){
         console.log("O Herói de nome " + heroi[0] + " está no nível de Ferro")
     } 
